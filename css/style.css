@@ -110,6 +110,7 @@ html {
   width: 330px;
   height: 200px;
   background-color: white;
+  margin-left: -5px;
 }
 
 .services h4 {

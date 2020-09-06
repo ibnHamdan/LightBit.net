@@ -118,3 +118,17 @@ html {
   font-size: 16px;
   font-weight: 300;
 }
+
+@media (max-width: 568px) {
+  .logo {
+    width: 300px;
+  }
+  .partners img {
+    width: 180px;
+    height: 100px;
+    background-color: white;
+  }
+  .email {
+    font-size: 15px;
+  }
+}

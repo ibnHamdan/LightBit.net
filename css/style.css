@@ -120,6 +120,27 @@ html {
   font-weight: 300;
 }
 
+@font-face {
+  font-family: "Aquire";
+  src: url("../fonts/Aquire-BW0ox.otf") format("opentype");
+}
+@font-face {
+  font-family: "Aquire-Bold";
+  src: url("../fonts/AquireBold-8Ma60.otf") format("opentype");
+}
+
+.brand {
+  font-family: "Aquire-Bold", Arial, sans-serif;
+  color: white;
+  font-size: 100px;
+}
+
+.slogan {
+  font-family: "Aquire", Arial, sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
 @media (max-width: 568px) {
   .logo {
     width: 300px;
@@ -131,5 +152,12 @@ html {
   }
   .email {
     font-size: 15px;
+  }
+  .brand {
+    font-size: 50px;
+  }
+
+  .slogan {
+    font-size: 13px;
   }
 }
